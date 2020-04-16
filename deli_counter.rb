@@ -14,3 +14,8 @@ def take_a_number(line, tickets)
   line << tickets
   puts "Welcome, #{tickets}. You are number #{line.length} in line."
 end
+
+
+def now_serving(line)
+  line == 0 
+  puts "Line is empty."
