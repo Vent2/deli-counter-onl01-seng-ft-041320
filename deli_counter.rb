@@ -10,7 +10,7 @@ def line(array)
   end
 end
 
-def take_a_number(array, tickets)
-  array
+def take_a_number(line, tickets)
+  line << tickets
 
 end
