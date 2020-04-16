@@ -12,5 +12,5 @@ end
 
 def take_a_number(line, tickets)
   line << tickets
-  "Welcome, #{tickets}. You are number #{line.length} in line."
+  puts "Welcome, #{tickets}. You are number #{line.length} in line."
 end
