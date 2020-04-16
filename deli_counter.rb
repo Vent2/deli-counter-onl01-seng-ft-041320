@@ -1,8 +1,14 @@
-def line(peoples)
-  katz_ deli = []
-  if katz_deli.length == 0
-  return  "The line is currently empty."
-  elsif katz_deli.length > 0
-  return  "You are #{katz_deli.length} in line."
+def line(array)
+  if array.length == 0
+    puts "The line is currently empty."
+  else
+    message = "The line is currently:"
+  array.each_with_index do |value, index|
+    message += " #{index.to_i+1}. #{value}"
+  end
+  puts "#{message}"
   end
 end
+
+
+
