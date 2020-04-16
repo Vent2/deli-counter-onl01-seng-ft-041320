@@ -18,5 +18,5 @@ end
 
 def now_serving(line)
   line == 0
-  puts "Line is empty."
+  puts "There is nobody waiting to be served!"
 end
