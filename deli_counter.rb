@@ -17,4 +17,5 @@ def take_a_number(array)
   loop do
     if people_in_line == tickets
     tickers += 1
+    break
 end
