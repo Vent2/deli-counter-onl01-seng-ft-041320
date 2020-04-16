@@ -17,5 +17,5 @@ end
 
 
 def now_serving(line)
-  line == 0 
+  line == 0
   puts "Line is empty."
