@@ -12,10 +12,9 @@ end
 
 def take_a_number(array)
   people_in_line = array.size
-  tickets = 0 
+  tickets = 0
 
-  loop do 
+  loop do
     if people_in_line == tickets
-    tickers += 1  
+    tickers += 1
 end
-  
