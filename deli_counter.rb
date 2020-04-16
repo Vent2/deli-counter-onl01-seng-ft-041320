@@ -12,5 +12,5 @@ end
 
 def take_a_number(array, tickets)
   peoples = array.length
-  tickets = peoples
+
 end
